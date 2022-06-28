@@ -15,7 +15,7 @@ public class BooleanMatrixProblem {
     String next() { 
       while (st == null || !st.hasMoreElements()) {
         try {
-          st = new StringTokenizer (br.readLine());
+          st = new StringTokenizer(br.readLine());
         } catch (IOException e) {
           e.printStackTrace();
         }
@@ -62,12 +62,12 @@ public class BooleanMatrixProblem {
         for(int j = 0; j < n; j++) {
           matrixx[i][j] = fr.nextInt();
           
-          if(matrixx[i][j]=-1 && count==0) {
+          if(matrixx[i][j] = 1 && count == 0) {
             list.add(j);
             count++;
           }
         }
-        if(count!=0)
+        if(count != 0)
           System.out.println(string1);
         else
           System.out.println(string2);
