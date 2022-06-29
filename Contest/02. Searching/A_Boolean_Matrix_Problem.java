@@ -60,7 +60,7 @@ public class BooleanMatrixProblem {
         for(int j = 0; j < n; j++) {
           matrixx[i][j] = fr.nextInt();
           
-          if(matrixx[i][j] = 1 && count == 0) {
+          if(matrixx[i][j] == 1 && count == 0) {
             list.add(j);
             count++;
           }
